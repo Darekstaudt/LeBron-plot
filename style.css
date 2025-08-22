@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(135deg, #552583 0%, #FDB927 100%);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  padding: 24px;
+}
+header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.lebron-img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  border: 3px solid #FDB927;
+}
+h1 {
+  color: #552583;
+  margin: 0 0 8px 0;
+}
+#problem {
+  font-size: 1.2em;
+  color: #FDB927;
+  font-weight: bold;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#graph {
+  background: #e6e6e6;
+  border: 2px solid #552583;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.controls {
+  text-align: center;
+}
+#check-btn {
+  background: #FDB927;
+  color: #552583;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+#check-btn:hover {
+  background: #ffe082;
+}
+#result {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #552583;
+  min-height: 24px;
+}
